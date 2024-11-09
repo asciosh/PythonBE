@@ -1,6 +1,0 @@
-Flask==2.2.2  # O l'ultima versione di Flask disponibile
-Werkzeug==2.2.2  # O l'ultima versione di Werkzeug
-gunicorn==20.1.0
-scikit-learn==1.2.0
-joblib==1.2.0
-numpy==1.23.3
