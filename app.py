@@ -4,7 +4,8 @@ import joblib  # Per caricare il modello di ML
 app = Flask(__name__)
 
 # Carica il tuo modello
-model = joblib.load('model.pkl')
+model_path = "model.pkl"
+model = joblib.load(model_path)
 
 @app.route('/predict', methods=['POST'])
 def predict():
