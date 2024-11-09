@@ -6,7 +6,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Definisci il percorso per il modello salvato
-MODEL_PATH = 'model/model.pkl'
+MODEL_PATH = '/model.pkl'
 
 # Carica il modello all'avvio dell'app
 try:
